@@ -112,6 +112,7 @@ body {
 	height: 28vh;
 width: 176px;
 	border: none;
+	background: none;
 }
 
 .cdate {
@@ -241,6 +242,11 @@ padding-top: 127px;
 		height: 29vh;
 		left:0;
 		top:69px;
+	}
+}
+@media (max-aspect-ratio:1) and(min-aspect-ratio:0.7) {
+	.container-home{
+		padding-top: 14vh;
 	}
 }
 @media (max-aspect-ratio:1)  {
